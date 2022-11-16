@@ -1,0 +1,71 @@
+
+
+.container1  {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 75%;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+
+}
+
+.content1 {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Courier New', monospace;
+}
+
+.h3vi {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.flap1 {
+  width: 100%;
+  height: 100%;
+}
+
+.flap1::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background:url("./imagenes/vision.png")    ;
+  background-position: 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap1::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background:url("./imagenes/vision111.png")no-repeat ;
+  background-position: -200px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container1:hover .flap1::after {
+  transform: translatex(600px);
+}
+
+.container1:hover .flap1::before{
+  transform: translatex(-600px);
+}
+
+.fondoVi{
+    background:url("./imagenes/aula.jpg")no-repeat ;
+}

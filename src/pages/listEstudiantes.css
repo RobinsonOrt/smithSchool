@@ -1,0 +1,23 @@
+.contListEs{
+    margin-top: 15px;
+    min-height: 75%;
+}
+
+.btnestu{
+    border: none;
+    width: 20%;
+    background-color: transparent;
+}
+
+.cardEstud{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.subCard{
+    background-color: red;
+    padding: 0;
+    margin: 0;
+}

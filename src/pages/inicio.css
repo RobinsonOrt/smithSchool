@@ -1,0 +1,70 @@
+.cardss {
+  text-align: center;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #f2e268;
+  height: 350px;
+}
+
+.card-text {
+  padding-top: 20px;
+}
+
+.carousel {
+  border-radius: 10px;
+  box-shadow: 15px 15px 20px #cbcbcb;
+}
+
+.carousel-inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mapouter {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: auto;
+}
+
+.gmap_canvas {
+  box-shadow: 0px 0px 25px #f2e268;
+  overflow: hidden;
+  background: none !important;
+  width: auto;
+  height: auto;
+}
+
+.gmap_iframe {
+  height: 400px !important;
+}
+
+.holaa {
+  background: url("./imagenes/fondoCard.jpg") no-repeat fixed center center;
+  height: auto;
+}
+
+.bg-body {
+  width: 80%;
+  height: 300px;
+  border-radius: 21px 21px 0 0;
+}
+
+.bg-light {
+  height: 750px;
+  width: 50%;
+  padding-bottom: 200px;
+}
+
+.display-5 {
+  font-weight: 500;
+}
+
+.lead {
+  text-align: justify;
+  margin-top: 100px;
+}

@@ -1,0 +1,154 @@
+
+:root {
+--red: hsl(0, 78%, 62%);
+--cyan: hsl(180, 62%, 55%);
+--orange: hsl(34, 97%, 64%);
+--blue: hsl(212, 86%, 64%);
+--varyDarkBlue: hsl(234, 12%, 34%);
+--grayishBlue: hsl(229, 6%, 66%);
+--veryLightGray: hsl(0, 0%, 98%);
+--weight1: 200;
+--weight2: 400;
+--weight3: 600;
+}
+
+.imgWeek{
+  float: right;
+  width: 30%;
+}
+
+
+.bodyHo {
+  background-image: radial-gradient(circle at 68.3% 118.3%, #ffffff 0, #ffffff 16.67%, #fffeff 33.33%, #f2f2f2 50%, #dee6e4 66.67%, #ccdbd6 83.33%, #bcd1c8 100%);
+  padding-bottom: 30px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.h1Ho{
+  font-weight: bold;
+}
+
+
+.h1Ho:first-of-type {
+    
+    color: var(--varyDarkBlue);
+
+}
+
+.h1Ho:last-of-type {
+    color: var(--varyDarkBlue);
+}
+
+@media (max-width: 400px) {
+    .h1Ho {
+        font-size: 1.5rem;
+    }
+}
+
+.headerHo {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    line-height: 0.8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-top: 3px solid rgb(114, 224, 129);
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    border-radius: 5px;
+}
+
+.headerHo p {
+    margin: 0 auto;
+    line-height: 2;
+    color: var(--grayishBlue);
+}
+
+
+.boxHo p {
+    background-color: --grayishBlue;
+    color: var(--grayishBlue);
+    text-align: center;
+    font-size:20px ;
+}
+
+.boxHo {
+  background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;  
+    text-align: center;
+}
+
+
+@media (max-width: 450px) {
+    .boxHo {
+        height: 200px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .boxHo {
+        text-align: center;
+        height: 180px;
+    }
+}
+
+.cyan {
+    border-top: 3px solid var(--cyan);
+}
+.red {
+    border-top: 3px solid var(--red);
+}
+.blue {
+    border-top: 3px solid var(--blue);
+}
+.orange {
+    border-top: 3px solid var(--orange);
+}
+
+.h2Ho {
+    text-align: center;
+    color: var(--varyDarkBlue);
+    font-weight: var(--weight3);
+}
+ .h6Ho{
+   text-align: center;
+   
+ }
+
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .boxHo {
+        width: 20%;
+     
+    }
+    .headerHo p {
+        width: 30%;
+    }
+    
+}

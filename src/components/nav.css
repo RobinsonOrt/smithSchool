@@ -1,0 +1,110 @@
+.px-3 {
+  background: linear-gradient(to left, #4057dd, #6f80e4, white);
+}
+
+.text-dark {
+  font-weight: bold;
+}
+
+.modal-content {
+  background:url("..//pages/imagenes/fondoBlur.jpg") no-repeat fixed center center;
+  border-radius: 20px;
+  height: 400px;
+  z-index: -2;
+  top: 60px;
+  position: relative;
+}
+
+.modal-header{
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  position: absolute;
+  top: -5px;
+  left: 170px;
+  z-index: 1;
+}
+
+.modal-body{
+  width: 68%;
+  position: absolute;
+  z-index: -1;
+  background-color: #c4bacb;
+  box-shadow: 0px 7px 7px #345797;
+  border-radius: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 260px;
+  top: 60px;
+  padding-top: 90px;
+}
+
+.form-group{
+  border: 1px solid;
+  height: 40px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  
+}
+
+.divEmail{
+  display: inline-block;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  
+}
+.divEmail2{
+  display: inline-block;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: end;
+}
+.col-xs-12, .col-sm-12, .col-md-10, .col-md-6, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0px;
+  padding-right:12px;
+}
+
+.checkbox{
+  padding-left: 12px;
+}
+
+.btn2{
+  width: auto;
+  text-decoration: none;
+  color: black;
+}
+.btn32{
+  width: auto;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding-top: 7px;
+}
+
+.logoA{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.form2{
+  top: 200px
+}
+
+.bi2{
+  background-color: #01254f;
+  border-radius: 90px;
+  opacity: 0.9;
+}
